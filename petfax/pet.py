@@ -10,9 +10,9 @@ def index():
     return render_template('pets/index.html', pets=pets)
 
 
-@bp.route('/<int:index>')
-def show_pet (index): 
-        return render_template('pets/index.html', pets=pets)
+# @bp.route('/<int:index>')
+# def show_pet (index): 
+#         return render_template('pets/index.html', pets=pets)
 
 
 @bp.route('/<int:id>')
